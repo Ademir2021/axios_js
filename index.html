@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="?"/>
+    <title>Axios</title>
+</head>
+<body>
+    <h1>Cadastro de Users</h1>
+    <fieldset>
+        <legend>User</legend>
+        <form >
+            <label>Nome: </label>
+            <input type="text" id="name" placeholder="Seu nome"  required autofocus><br></br>
+            <label>Avatar: </label>
+            <input type="text" id="avatar" placeholder="Seu Avatar" required autofocus><br></br>
+            <label>Cidade: </label>
+            <input type="text" id="city" placeholder="Sua Cidade" required autofocus><br></br>
+            <button id="add" >Inserir User!</button>
+        </form>
+    </fieldset>
+    <hr>
+    <div id="renderResults"></div>
+    <div id="renderResults2"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/users.js" defer></script>
+    <script src="./js/script.js" defer></script>
+    <script src="./test.js" defer></script>
+</body>
+</html>
